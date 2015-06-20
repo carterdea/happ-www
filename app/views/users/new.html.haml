@@ -1,0 +1,7 @@
+%p New User!!
+= form_for @user do |f|
+  = f.label :email
+  = f.email_field :email, size: 40
+  = f.label :password
+  = f.password_field :password, size: 40
+  = f.submit "Sign Up"
