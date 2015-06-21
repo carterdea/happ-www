@@ -199,9 +199,9 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   neat
-  pg
+  pg (~> 0.18.2)
   rails (= 4.2.1)
-  rails_12factor
+  rails_12factor (~> 0.0.3)
   rspec (~> 3.3.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
