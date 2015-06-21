@@ -8,11 +8,10 @@
     %link(href='https://api.tiles.mapbox.com/mapbox.js/v2.2.0/mapbox.css' rel='stylesheet')
     = csrf_meta_tags
   %body
-    = render 'layouts/flashes'
+    .fixed
+      = render 'layouts/flashes'
     = render 'layouts/header'
-    %section.main
-      = yield
-    = render 'layouts/footer'
+    = yield
     :javascript
       // Provide your access token
       L.mapbox.accessToken = 'pk.eyJ1IjoiY2FydGVyZGVhIiwiYSI6IjhPS0FRaXcifQ.ww0vsEmblI_6aYxEQO_acA';

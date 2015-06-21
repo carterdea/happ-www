@@ -4,12 +4,12 @@ button {
   -webkit-font-smoothing: antialiased;
   background: none;
   border-radius: $base-border-radius;
-  border: 2px solid $white;
-  color: #fff;
+  border: 2px solid $yellow;
+  color: $yellow;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 1em;
   font-weight: 500;
   line-height: 1;
   padding: 0.75em 1em;
@@ -20,13 +20,12 @@ button {
 
   &:hover,
   &:focus {
-    color: #fff;
     outline: none;
   }
 
   &:active {
-    background: $white;
-    color: $yellow;
+    background: $yellow;
+    color: $white;
     outline: none;
   }
 
