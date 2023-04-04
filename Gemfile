@@ -1,18 +1,18 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
-gem 'rails', '~> 4.2'
-gem 'sass-rails', '~> 5.0'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'uglifier', '~> 4.1'
 gem 'haml'
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.7'
-gem 'sdoc', '~> 1.0', group: :doc
+gem 'jbuilder', '~> 2.7', '>= 2.7.0'
+gem 'sdoc', '~> 1.0', '>= 1.0.0', group: :doc
 gem 'bcrypt', '~> 3.1'
 
 # gem 'unicorn'
@@ -21,11 +21,11 @@ gem 'bcrypt', '~> 3.1'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'byebug'
   gem 'rspec', '~> 3.7'
-  gem 'capybara', '~> 3.4'
-  gem 'web-console', '~> 3.3'
+  gem 'capybara', '~> 3.4', '>= 3.4.2'
+  gem 'web-console', '~> 3.3', '>= 3.3.0'
   gem 'spring'
 end
 
